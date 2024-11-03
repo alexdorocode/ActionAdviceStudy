@@ -1,4 +1,7 @@
+# Third-party imports
 import numpy as np
+
+# Local application/library specific imports
 import gym_super_mario_bros
 from C_simulation_manager import TestProcess, TrainDQN, TrainDQN_AA
 
