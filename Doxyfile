@@ -1,0 +1,33 @@
+
+    # Doxyfile configuration for Doxygen
+
+    # Project related configuration options
+    PROJECT_NAME           = "TransferLearning RL Study"
+    PROJECT_BRIEF = "This project focuses on the development and evaluation of various advising techniques for neural networks applied to semantic segmentation and RGB image classification. The system is designed to be adaptable for other studies in both Transfer Learning and Action Advise. The investigated techniques are evaluated using three bounds to assess their performance:
+
+    Semantic Segmentation Non Advising (SS NA), serving as the upper bound.
+    RGB Non Advising (RGB NA), serving as the lower bound.
+    RGB Fine-tuning (RGB FT), serving as the middle bound.
+    In this study, we specifically evaluate the following techniques:
+    RGB Action Advise only Decay guided (RGB AA Decay)
+    RGB Student Uncertainty guided Advise (RGB SUA)
+    RGB Teacher Uncertainty guided Advise (RGB TUA)
+    RGB Teacher Student Uncertainty guided Advise (RGB TSUA)
+
+    The objective of the project is to improve the accuracy and efficiency of neural network models by comparing each technique with the established bounds to determine their effectiveness and performance across various metrics such as accumulated reward, training time, steps, and win rate."
+
+    OUTPUT_DIRECTORY       = "myDoxygen"
+    
+    # Build related configuration options
+    GENERATE_LATEX         = YES
+    GENERATE_HTML          = YES
+
+    # Habilitar la generació de diagrames de classes i col·laboració
+    HAVE_DOT               = YES
+    UML_LOOK               = YES
+    CLASS_GRAPH            = YES
+    COLLABORATION_GRAPH    = YES
+    CALL_GRAPH             = YES
+    CALLER_GRAPH           = YES
+
+    
