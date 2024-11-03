@@ -1,12 +1,3 @@
-#Code modified from [on the Paperspace blog](https://blog.paperspace.com/building-double-deep-q-network-super-mario-bros/).
-
-## Install the following if on a new instance, otherwise they'll ship with the container.
-# !pip install nes-py==0.2.6
-# !pip install gym-super-mario-bros
-# !apt-get update
-# !apt-get install ffmpeg libsm6 libxext6  -y
-
-############################################################################################################    
 
 # Standard library imports
 import random
