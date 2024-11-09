@@ -1,0 +1,75 @@
+seeds:
+  alpha_prima:
+    seed_0: 425102
+    seed_1: 189238
+  beta_prima:
+    seed_0: 954471
+    seed_1: 343181
+  chi_prima:
+    seed_0: 810353
+    seed_1: 382764
+  delta_prima:
+    seed_0: 476773
+    seed_1: 479464
+  epsilon_prima:
+    seed_0: 741713
+    seed_1: 583558
+  eta_prima:
+    seed_0: 677569
+    seed_1: 592448
+  gamma_prima:
+    seed_0: 937107
+    seed_1: 316167
+  iota_prima:
+    seed_0: 609974
+    seed_1: 514838
+  kappa_prima:
+    seed_0: 750369
+    seed_1: 682735
+  lambda_prima:
+    seed_0: 345473
+    seed_1: 854507
+  mu_prima:
+    seed_0: 512845
+    seed_1: 653242
+  nu_prima:
+    seed_0: 899049
+    seed_1: 974951
+  omega_prima:
+    seed_0: 568914
+    seed_1: 997657
+  omicron_prima:
+    seed_0: 511766
+    seed_1: 404759
+  phi_prima:
+    seed_0: 75523
+    seed_1: 333667
+  pi_prima:
+    seed_0: 26299
+    seed_1: 591538
+  psi_prima:
+    seed_0: 861883
+    seed_1: 919851
+  rho_prima:
+    seed_0: 891038
+    seed_1: 631140
+  sampi_prima:
+    seed_0: 682312
+    seed_1: 411979
+  sigma_prima:
+    seed_0: 536820
+    seed_1: 828726
+  tau_prima:
+    seed_0: 871653
+    seed_1: 22340
+  theta_prima:
+    seed_0: 807970
+    seed_1: 177296
+  upsilon_prima:
+    seed_1: 67282
+  xi_prima:
+    seed_0: 635922
+    seed_1: 976822
+  zeta_prima:
+    seed_0: 513220
+    seed_1: 299634

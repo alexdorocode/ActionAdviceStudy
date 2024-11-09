@@ -1,0 +1,101 @@
+seeds:
+  alpha:
+    seed_0: 785882
+    seed_1: 423843
+    seed_2: 757865
+  beta:
+    seed_0: 874437
+    seed_1: 471491
+    seed_2: 84181
+  chi:
+    seed_0: 382422
+    seed_1: 629959
+    seed_2: 785319
+  delta:
+    seed_0: 304321
+    seed_1: 944454
+    seed_2: 417
+  epsilon:
+    seed_0: 950516
+    seed_1: 977920
+    seed_2: 517929
+  eta:
+    seed_0: 83567
+    seed_1: 699407
+    seed_2: 104758
+  gamma:
+    seed_0: 920453
+    seed_1: 113579
+    seed_2: 772165
+  iota:
+    seed_0: 685158
+    seed_1: 153974
+    seed_2: 916955
+  kappa:
+    seed_0: 66634
+    seed_1: 469730
+    seed_2: 413088
+  lambda:
+    seed_0: 789988
+    seed_1: 14213
+    seed_2: 986192
+  mu:
+    seed_0: 578524
+    seed_1: 672139
+    seed_2: 849412
+  nu:
+    seed_0: 449931
+    seed_1: 386246
+    seed_2: 80606
+  omega:
+    seed_0: 28263
+    seed_1: 295733
+    seed_2: 766368
+  omicron:
+    seed_0: 832583
+    seed_1: 202423
+    seed_2: 470523
+  phi:
+    seed_0: 463089
+    seed_1: 459010
+    seed_2: 860521
+  pi:
+    seed_0: 941301
+    seed_1: 607134
+    seed_2: 230740
+  psi:
+    seed_0: 941108
+    seed_1: 12854
+    seed_2: 815844
+  rho:
+    seed_0: 979701
+    seed_1: 212201
+    seed_2: 8198
+  sampi:
+    seed_0: 888855
+    seed_1: 906139
+    seed_2: 610072
+  sigma:
+    seed_0: 535006
+    seed_1: 613543
+    seed_2: 60513
+  tau:
+    seed_0: 879077
+    seed_1: 101236
+    seed_2: 288949
+  theta:
+    seed_0: 234729
+    seed_1: 856218
+    seed_2: 282144
+  upsilon:
+    seed_0: 447961
+    seed_1: 127817
+    seed_2: 833257
+  xi:
+    seed_0: 929190
+    seed_1: 951619
+    seed_2: 35195
+  zeta:
+    seed_0: 730978
+    seed_1: 963390
+    seed_2: 568866

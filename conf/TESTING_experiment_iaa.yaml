@@ -1,0 +1,20 @@
+# TESTING_experiment_iaa.yaml
+defaults:
+  - TESTING_train_iaa
+  - base_config
+  - _self_
+
+trackers:
+  use_wandb: false         # Indicates whether to use Weights & Biases
+  wandb_project: "Dev_Experiment"  # Project name for Weights & Biases
+  dev_mode: true
+
+process:
+  on_experiment: true
+  run_name: "Dev_Experiment_"
+  level: "4-1"       # Default level
+  epochs: 1          # Number of epochs
+  save_best_model: true  # Determines whether to save the best model
+  experiment:
+    n_trains: 5   # Number of training runs
+    seed_mode: "random"

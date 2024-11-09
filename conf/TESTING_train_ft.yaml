@@ -1,0 +1,27 @@
+#  TESTING_train_dqn.yaml
+defaults:
+  - base_config
+  - base_agent_0
+  - _self_
+
+input_type:
+  input_type: "rgb"  # Type of input
+
+trackers:
+  use_tensorboard: false   # Whether to use tensorboard
+  use_wandb: false         # Whether to use weights & biases
+  wandb_project: ""  # Project name for weights & biases
+  dev_mode: true
+
+process:
+  mode: "train_ft"  # Default training mode
+  run_name: ""  # Default run name
+  level: "1-1"      # Default level
+  epochs: 1            # Number of epochs
+  save_best_model: true  # Save the best model
+
+agent:
+  info:
+    mode: "train_ft"  # Mode of the agent
+    pretrained_name: "Refine_RGB_DQN_22_2layers_b32_lr_0005_ed_0999_g_090_tr_500_m_4000_DQN_seed_66634_"
+    conv_layers: 2

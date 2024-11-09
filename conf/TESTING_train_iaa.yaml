@@ -1,0 +1,28 @@
+# TESTING_train_iaa.yaml
+defaults:
+  - _self_
+  - base_agent_iaa_0
+  - base_config
+
+trackers:
+  use_tensorboard: false   # Indicates whether to use TensorBoard
+  use_wandb: false         # Indicates whether to use Weights & Biases
+  wandb_project: ""  # Project name for Weights & Biases
+  dev_mode: true
+
+process:
+  mode: "train_iaa"  # Default training mode
+  run_name: ""  # Default run name
+  level: "4-1"       # Default level
+  epochs: 1          # Number of epochs
+  save_best_model: true  # Determines whether to save the best model
+  iaa_config:
+    min_ep_recommendation: 0.1
+    lambda_teacher: 0.996  # Corrected from 'lamda_teacher' to 'lambda_teacher'
+    switch_off_teacher_mode: 'balance'
+    min_balance: 0.01
+
+agent:
+  info:
+    mode: "train_iaa"  # Mode of the agent
+    pretrained_name: "develop_"

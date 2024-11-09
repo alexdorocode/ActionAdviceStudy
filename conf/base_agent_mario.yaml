@@ -1,0 +1,22 @@
+# agent0_TESTING_train_dqn.yaml
+defaults:
+  - _self_
+
+agent:
+  info:
+    type: "DQN"              # Type of agent
+    dev_mode: false
+    abs_path: true
+    state_space: [6, 84, 84]
+    action_space: 5
+  train_params:
+    max_memory_size: 4000    # Maximum size of the replay buffer
+    batch_size: 16            # Batch size for training
+    gamma: 0.90               # Discount factor for future rewards
+    lr: 0.00025                # Learning rate for optimizer
+    dropout: 0.               # Dropout rate in the network (if applicable)
+    target_update: 1000       # Update target network every n steps
+    exploration:
+      max_rate: 1.0             # Maximum exploration rate
+      min_rate: 0.02            # Minimum exploration rate
+      decay: 0.99              # Decay rate for exploration probability

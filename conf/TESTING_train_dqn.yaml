@@ -1,0 +1,42 @@
+#  TESTING_train_dqn.yaml
+defaults:
+  - base_config
+  - best_agent_mario_2L
+  - _self_
+
+input_type:
+  input_type: 'rgb'
+
+trackers:
+  use_tensorboard: false
+  use_wandb: true           # Indicates whether to use Weights & Biases
+  dev_mode: false
+  wandb_project: "RLDPTL SuperMario Develop"         # Project name for Weights & Biases
+  wandb_tags: ["best_model", "validate", "t4"]  # Tags for Weights & Biases
+
+process:
+  zero_shot: true
+  on_refinement: false
+  mode: "train_dqn"  # Default training mode
+  run_name: "RGB_DQN_11_best_model"  # Name of the run
+  level: "1-1"              # Default level
+  epochs: 1              # Number of epochs
+  save_best_model: false     # Determines whether to save the best model
+  experiment:
+    seed_mode: "group"
+    seed_group: "alpha_prima"
+
+agent:
+  info:
+    mode: "train_dqn"  # Mode of the agent
+  train_params:
+    batch_size: 32
+    lr: 0.0005
+    gamma: 0.90
+    target_update: 500
+    max_memory_size: 4000
+    dropout: 0.
+    exploration:
+      max_rate: 1.0
+      min_rate: 0.02
+      decay: 0.999

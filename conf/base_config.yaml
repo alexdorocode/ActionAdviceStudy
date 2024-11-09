@@ -1,0 +1,15 @@
+# config.yaml
+defaults:
+  - seeds_colection_prima
+  - pretrained_name_by_seed_group
+  - levels_colecction
+  - _self_
+
+never_change:
+  code: "multifile"
+  vis: false         # Visibility, true for visual dev_mode, false otherwise
+  pretrained_path: "pretrained_models"  # Path to pretrained model
+  save_path: "models"  # Path to save model
+
+input_type:
+  input_type: "rgb"  # Type of input

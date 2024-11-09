@@ -1,0 +1,23 @@
+#  TESTING_test.yaml
+defaults:
+  - _self_
+  - base_agent_0
+  - base_config
+
+trackers:
+  use_tensorboard: false   # Whether to use tensorboard
+  use_wandb: false         # Whether to use weights & biases
+  wandb_project: "MyProject"  # Project name for weights & biases
+  dev_mode: true
+
+process:
+  mode: "test"  # Default training mode
+  run_name: "Refine_RGB_DQN_22_2layers_b32_lr_0005_ed_0999_g_090_tr_500_m_4000_DQN_seed_66634_"  # Default run name
+  level: "2-2"      # Default level
+  epochs: 10            # Number of epochs
+
+agent:
+  info:
+    mode: "test"  # Mode of the agent
+    pretrained_name: "Refine_RGB_DQN_22_2layers_b32_lr_0005_ed_0999_g_090_tr_500_m_4000_DQN_seed_66634_"
+    conv_layers: 2

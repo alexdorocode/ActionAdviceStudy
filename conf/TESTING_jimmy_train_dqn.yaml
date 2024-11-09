@@ -1,0 +1,15 @@
+defaults:
+- _self_
+- TESTING_train_dqn
+- base_config
+process:
+  epochs: 20
+  level: 1-1
+  mode: train_dqn
+  run_name: Dev_Process_Test
+  save_best_model: true
+trackers:
+  dev_mode: true
+  use_tensorboard: false
+  use_wandb: true
+  wandb_project: Develop
